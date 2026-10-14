@@ -1,4 +1,4 @@
-# Migracion_Rentas
+# Migracion_SalonEventosMongoDB
 
 Migración de la base de datos de **Los Chaneques** (PostgreSQL en Supabase) a **MongoDB Atlas** (NoSQL).
 

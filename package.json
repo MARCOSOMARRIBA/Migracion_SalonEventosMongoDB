@@ -1,5 +1,5 @@
 {
-  "name": "migracion-rentas",
+  "name": "migracion-salon-eventos-mongodb",
   "version": "1.0.0",
   "private": true,
   "type": "module",
