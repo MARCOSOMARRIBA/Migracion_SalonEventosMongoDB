@@ -1,0 +1,7 @@
+node_modules/
+.env
+
+# Datos reales (contienen correos, teléfonos, hashes de contraseña y chats de clientes): NO se suben a GitHub.
+# Se regeneran con:  npm run convertir
+atlas_import/colecciones/
+respaldo/respaldo_completo_los_chaneques.sql

@@ -1,0 +1,79 @@
+{
+  "users": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "name",
+      "email",
+      "role"
+    ],
+    "properties": {
+      "role": {
+        "enum": [
+          "admin",
+          "client"
+        ]
+      }
+    }
+  },
+  "foodPackages": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "name",
+      "basePrice"
+    ],
+    "properties": {
+      "basePrice": {
+        "bsonType": "decimal"
+      },
+      "items": {
+        "bsonType": "array"
+      }
+    }
+  },
+  "reservations": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "clientId",
+      "eventType",
+      "eventDate",
+      "guestCount",
+      "status"
+    ],
+    "properties": {
+      "status": {
+        "enum": [
+          "pending",
+          "confirmed",
+          "cancelled",
+          "completed"
+        ]
+      },
+      "paymentStatus": {
+        "enum": [
+          "pending",
+          "paid",
+          "refunded"
+        ]
+      },
+      "totalPrice": {
+        "bsonType": "decimal"
+      }
+    }
+  },
+  "chatConversations": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "guestToken",
+      "messages"
+    ],
+    "properties": {
+      "messages": {
+        "bsonType": "array"
+      }
+    }
+  }
+}

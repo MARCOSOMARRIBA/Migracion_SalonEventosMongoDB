@@ -1,0 +1,17 @@
+{
+  "name": "migracion-rentas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Migración de la base de datos de Los Chaneques (PostgreSQL/Supabase) a MongoDB Atlas",
+  "scripts": {
+    "convertir": "node scripts/convertir.mjs",
+    "importar": "node scripts/importar-atlas.mjs"
+  },
+  "dependencies": {
+    "bson": "^6.10.0",
+    "dotenv": "^17.4.2",
+    "mongodb": "^6.10.0",
+    "pg": "^8.23.0"
+  }
+}

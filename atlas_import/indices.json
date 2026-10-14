@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "key": {
+        "email": 1
+      },
+      "unique": true
+    }
+  ],
+  "foodPackages": [
+    {
+      "key": {
+        "isActive": 1
+      }
+    }
+  ],
+  "reservations": [
+    {
+      "key": {
+        "eventDate": 1,
+        "status": 1
+      }
+    },
+    {
+      "key": {
+        "clientId": 1,
+        "createdAt": -1
+      }
+    }
+  ],
+  "chatConversations": [
+    {
+      "key": {
+        "guestToken": 1
+      },
+      "unique": true
+    },
+    {
+      "key": {
+        "lastMessageAt": -1
+      }
+    }
+  ],
+  "pageSections": [
+    {
+      "key": {
+        "sectionKey": 1
+      },
+      "unique": true
+    }
+  ],
+  "galleryImages": [
+    {
+      "key": {
+        "order": 1
+      }
+    }
+  ],
+  "galleryHistory": [
+    {
+      "key": {
+        "imageId": 1,
+        "createdAt": -1
+      }
+    }
+  ],
+  "advertisements": [
+    {
+      "key": {
+        "isActive": 1,
+        "startDate": 1,
+        "endDate": 1
+      }
+    }
+  ],
+  "userSessions": [
+    {
+      "key": {
+        "userId": 1
+      }
+    }
+  ]
+}

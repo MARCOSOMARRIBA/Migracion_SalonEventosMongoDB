@@ -1,0 +1,18 @@
+{
+  "origen": "Supabase (public)",
+  "fecha": "2026-10-14T21:33:01.931Z",
+  "filas_por_tabla": {
+    "advertisements": 0,
+    "chat_conversations": 10,
+    "chat_entries": 94,
+    "chat_messages": 0,
+    "food_packages": 7,
+    "gallery_history": 39,
+    "gallery_images": 31,
+    "page_sections": 3,
+    "reservations": 7,
+    "testimonials": 4,
+    "user_sessions": 0,
+    "users": 6
+  }
+}

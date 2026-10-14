@@ -1,0 +1,16 @@
+{
+  "generado": "2026-10-14T21:34:52.072Z",
+  "documentos_por_coleccion": {
+    "users": 6,
+    "foodPackages": 7,
+    "reservations": 7,
+    "chatConversations": 10,
+    "pageSections": 3,
+    "galleryImages": 31,
+    "galleryHistory": 39,
+    "testimonials": 4,
+    "advertisements": 0,
+    "userSessions": 0
+  },
+  "mensajes_de_chat_incrustados": 94
+}
