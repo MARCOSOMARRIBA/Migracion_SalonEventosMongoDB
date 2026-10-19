@@ -6,7 +6,8 @@
   "description": "Migración de la base de datos de Los Chaneques (PostgreSQL/Supabase) a MongoDB Atlas",
   "scripts": {
     "convertir": "node scripts/convertir.mjs",
-    "importar": "node scripts/importar-atlas.mjs"
+    "importar": "node scripts/importar-atlas.mjs",
+    "comprobar": "node scripts/comprobar-despliegue.mjs"
   },
   "dependencies": {
     "bson": "^6.10.0",
