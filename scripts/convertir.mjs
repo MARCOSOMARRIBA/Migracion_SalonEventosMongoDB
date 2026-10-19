@@ -116,7 +116,8 @@ for (const [nombre, docs] of Object.entries(colecciones)) {
 }
 fs.writeFileSync(path.join(OUT, 'indices.json'), JSON.stringify(indices, null, 2));
 fs.writeFileSync(path.join(OUT, 'validadores.json'), JSON.stringify(validadores, null, 2));
-fs.copyFileSync(path.join(ROOT, 'respaldo', 'estructura_los_chaneques.sql'), path.join(OUT, 'estructura_origen_copia.sql'));
+// El respaldo es de solo lectura: se copia el contenido (no el atributo) para poder repetir la conversión
+fs.writeFileSync(path.join(OUT, 'estructura_origen_copia.sql'), fs.readFileSync(path.join(ROOT, 'respaldo', 'estructura_los_chaneques.sql')));
 fs.writeFileSync(path.join(OUT, 'resumen.json'), JSON.stringify({ generado: new Date().toISOString(), documentos_por_coleccion: resumen,
   mensajes_de_chat_incrustados: chatConversations.reduce((n, c) => n + c.messages.length, 0) }, null, 2));
 
